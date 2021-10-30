@@ -39,7 +39,7 @@ while True:
                break
             lines.append(line)
         f.close()
-        connection.send(line.encode())
+        connection.send(lines.encode())
         connection.close()
     else:
         IsExist="404 Not Found"
