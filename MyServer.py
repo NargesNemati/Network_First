@@ -34,7 +34,7 @@ while True:
         f = open(pathFile, 'rb')
         l = f.read(1024)
         f.close()
-        connection.send(lines.encode())
+        connection.send(l)
         connection.close()
     else:
         IsExist="404 Not Found"
