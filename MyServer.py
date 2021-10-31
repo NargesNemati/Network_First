@@ -10,7 +10,7 @@ from os import path
 urllib.request.urlretrieve("http://www.python.org/", "ServerFile/www.python.org.html")
 urllib.request.urlretrieve("https://www.wikipedia.org/", "ServerFile/www.wikipedia.org.html")
 urllib.request.urlretrieve("https://stackoverflow.com/", "ServerFile/stackoverflow.com.html")
-urllib.request.urlretrieve("https://www.uptvs.com/", "ServerFile/www.uptvs.com.html")
+urllib.request.urlretrieve("https://alaatv.com/", "ServerFile/alaatv.com.html")
 urllib.request.urlretrieve("https://soft98.ir/", "ServerFile/soft98.ir.html")
 urllib.request.urlretrieve("https://www.yasdl.com/", "ServerFile/www.yasdl.com.html")
 urllib.request.urlretrieve("https://upmusics.com/category/single-tracks/", "ServerFile/upmusics.com.html")
