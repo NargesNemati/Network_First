@@ -31,13 +31,8 @@ while True:
     if(path.exists(pathFile)):
         IsExist="200OK"
         connection.send(IsExist.encode())
-        f = open(pathFile, 'r')
-        lines = []
-        while True:
-            line = f.readline()
-            if line == '':
-               break
-            lines.append(line)
+        f = open(pathFile, 'rb')
+        l = f.read(1024)
         f.close()
         connection.send(lines.encode())
         connection.close()
